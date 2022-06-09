@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            top:20%;
+            left:30%;
+            
+            position: absolute;
+            background-color:#87CEEB;
+            text-align: center;
+            
+            
+        }
+        table{
+            border: 1px solid black ;
+            text-align: center;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-bottom-color:#2c2c2c;
+            border-top-color:#808080;
+            border-right-color:#2c2c2c;
+            border-left-color:#808080;
+           
+            
+        }
+        table>thead>tr>th{
+            border: 1px solid black;
+
+        }
+        table>tbody>tr>td{
+            border:1px solid black;
+            
+        }
+        .blue{
+            color: blue;
+        }
+        .red{
+            color: red;
+        }
+        .brown{
+            color: brown;
+        }
+        .green{
+            color: green;
+        }
+        .pink{
+            color:pink;
+        }
+        .violet{
+            color: violet;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1 class="green">COLLEGE TIME TABLE</h1>
+        <table>
+        <tbody>
+            <tr>
+                <td></td>
+                <td>8:30-9:30</td>
+                <td>9:30-10:30</td>
+                <td>10:30-11:30</td>
+                <td>11:30-12:30</td>
+                <td>12:30-2:00</td>
+                <td>2:00-3:00</td>
+                <td>3:00-4:00</td>
+                <td>4:00-5:00</td>
+            </tr>
+            <tr>
+                <td>MONDAY</td>
+                <td>---</td>
+                <td class="blue">SUB1</td>
+                <td class="green">SUB2</td>
+                <td class="red">SUB3</td>
+                <td rowspan="6"><br>L<br>U<br>N<br>C<br>H</td>
+                <td class="violet">SUB4</td>
+                <td>SUB5</td>
+                <td>counselling</td>
+            </tr>
+            <tr>
+                <td>TUESDAY</td>
+                <td class="blue">SUB1</td>
+                <td class="red">SUB2</td>
+                <td class="green">SUB3</td>
+                <td>--</td>
+                
+                <td class="brown">SUB4</td>
+                <td class="violet">SUB5</td>
+                <td>library</td>
+                
+            </tr>
+            <tr>
+                <td>WEDNESDAY</td>
+                <td class="green">SUB1</td>
+                <td class="brown">SUB2</td>
+                <td>SWA</td>
+                <td>--</td>
+                
+                <td colspan="3" class="pink">LAB</td>
+            </tr>
+            
+            <tr>
+                <td>THURSDAY</td>
+                <td>SUB1</td>
+                <td class="violet">SUB2</td>
+                <td class="brown">SUB3</td>
+                <td>--</td>
+                
+                <td class="blue" >SUB4</td>
+                <td class="red">SUB5</td>
+                <td>library</td>
+            </tr>
+            <tr>
+                <td>FRIDAY</td>
+                <td class="brown">SUB1</td>
+                <td class="violet">SUB2</td>
+                <td class="blue">SUB3</td>
+                <td>--</td>
+                
+                <td class="green">SUB4</td>
+                <td>SUB5</td>
+                <td>library</td>
+            </tr>
+            <tr>
+                <td>SATURDAY</td>
+                <td class="red">SUB1</td>
+                <td colspan="3">seminar</td>
+                
+                
+                <td class="green">SUB4</td>
+                <td>SUB5</td>
+                <td>library</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+        
+</body>
+</html>
